@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>#ANNotherchapterwithJILL</title>
+    <!-- Bootstrap 3.2 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Google fonts -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Great+Vibes"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome 4.2.0 -->
+    <link
+      href="css/font-awesome-4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ilove Font 1.0 -->
+    <link href="css/ilove/font-ilove.css" rel="stylesheet" />
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Magnific popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .music-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #800020;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        z-index: 9999;
+      }
+
+      .music-button i {
+        font-size: 24px;
+      }
+    </style>
+  </head>
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+
+    <audio id="background-music" autoplay loop>
+      <source src="music/sound.mp3" type="audio/mpeg" />
+      <!-- Your browser does not support the audio element. -->
+    </audio>
+
+    <!-- Music Control Button -->
+    <button class="music-button" id="music-control">
+      <i class="fa fa-play"></i>
+    </button>
+
+    <!--Carousel-->
+    <div
+      id="myCarousel"
+      class="carousel slide carousel-fade"
+      style="height: 100%"
+    >
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div id="progressbar"></div>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="messages">
+          <h1 class="slideInDown wow animated" data-wow-delay="0.5s">
+            Jill <span class="heart pulsing fa fa-heart"></span> Lea Ann
+          </h1>
+          <div id="time"></div>
+          <h3
+            class="fadeIn wow animated"
+            data-wow-delay="1s"
+            style="margin-top: 50px"
+          >
+            #ANNotherchapterwithJILL
+          </h3>
+          <h4
+            class="fadeIn wow animated"
+            data-wow-delay="1s"
+            style="margin-top: 50px"
+          >
+            September 28, 2024
+          </h4>
+
+          <div
+            class="btn-special slideInUp wow animated page-scroll"
+            data-wow-delay="0.7s"
+            onclick="showContent()"
+          >
+            <a href="#about"><span>Click Me!</span></a>
+          </div>
+        </div>
+        <div class="item active">
+          <div
+            class="carousel-img"
+            style="background-image: url(images/carousel-1.jpg)"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="carousel-img"
+            style="background-image: url(images/carousel-2.jpg)"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="carousel-img"
+            style="background-image: url(images/carousel-3.jpg)"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="carousel-img"
+            style="background-image: url(images/carousel-4.jpg)"
+          ></div>
+        </div>
+        <div class="item">
+          <div
+            class="carousel-img"
+            style="background-image: url(images/carousel-5.jpg)"
+          ></div>
+        </div>
+      </div>
+      <div class="overlay2"></div>
+      <div id="geo" class="geo">
+        <div id="output" class="geo"></div>
+      </div>
+    </div>
+
+    <div id="pContent" style="display: none">
+      <div id="about"></div>
+      <!--Navbar-->
+      <div class="topbar-nav">
+        <nav class="navbar navbar-default navbar-custom" role="navigation">
+          <div class="container">
+            <div class="navbar-header page-scroll">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-main-collapse"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="#page-top" onclick="hideContent()">
+                <img src="images/logo.png" alt="logo" />
+              </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse navbar-right navbar-main-collapse"
+            >
+              <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from Adam & Eve link when scrolled up past about section -->
+                <li class="hidden">
+                  <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll dropdown">
+                  <a
+                    href="#about"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    >Jill & Lea Ann</a
+                  >
+                  <ul class="dropdown-menu wow swing" role="menu">
+                    <li><a href="#howwemeet">How we meet</a></li>
+                  </ul>
+                </li>
+                <li class="page-scroll">
+                  <a href="#family">Our Family</a>
+                </li>
+                <li class="page-scroll">
+                  <a href="#moments">Big Moments</a>
+                </li>
+                <li class="page-scroll dropdown">
+                  <a
+                    href="#einvite"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    >E-Invite</a
+                  >
+                  <ul class="dropdown-menu wow swing" role="menu">
+                    <li><a href="#weddingdetails">Wedding Details</a></li>
+                    <li><a href="#attire">Attire</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdSNLDFsziuIdJrMfAYzLCL8TcOMRPytYGaB1Il7_i14HO4zw/viewform"
+                    target="_blank"
+                    >RSVP</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+        </nav>
+      </div>
+
+      <!--Jill & Lea Ann Section-->
+      <section id="aboutthem" class="white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading">
+                <h2
+                  class="wow fadeInUp underline padtop50"
+                  data-wow-delay="0.5s"
+                >
+                  Welcome Everyone
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.7s">
+                  Welcome to Jill & Lea Ann's website, where we proudly share
+                  our love story with all its ups and downs, great moments, and
+                  happy events.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <ul class="ch-grid man wow flipInX" data-wow-delay="0.5s">
+                  <li>
+                    <div class="ch-item ch-img-1">
+                      <div class="ch-info">
+                        <h3>I'm Jill</h3>
+                        <p>
+                          Ayaw kahadlok sa bisan unsang mga pagsulay Kay sagopon
+                          ko ikaw sa mga kasakit ug dili isalikway. Gakos dire
+                          kanako ug hugot ayaw gyud pagbuhi kay ilupad ko ikaw
+                          sa kalipay, mosugot ka'g sa dili.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="and">&amp;</div>
+              <div class="col-md-6">
+                <ul class="ch-grid woman wow flipInX" data-wow-delay="0.5s">
+                  <li>
+                    <div class="ch-item ch-img-2">
+                      <div class="ch-info">
+                        <h3>I'm Lea Ann</h3>
+                        <p>
+                          Hawid sa akong kamot akong pinalangga kay iduyan ko
+                          ikaw sa mahanoy ko nga mga pagpangga. Salig kanako nga
+                          ampingan ang imong gugma Kay kining akong pagmahal
+                          kanimo talagsaon ug way sama.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="separator"></div>
+      </section>
+
+      <!--How we meet-->
+      <section id="howwemeet" class="white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading">
+                <h2
+                  class="wow fadeInUp underline padtop50"
+                  data-wow-delay="0.5s"
+                >
+                  How we meet
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.7s">
+                  <strong>We met</strong>
+                  at the Parian Fire Station. I was on detached service at the
+                  Cebu City Fire Station starting February 16, 2021, due to the
+                  need for additional personnel while many were undergoing their
+                  Fire Basic Recruit Course (FBRC), which lasted more than five
+                  months. During this period, the Cebu City Fire Station
+                  required temporary personnel to assist with operations every
+                  Saturday and Sunday. Jill, a fresh graduate from the FBRC
+                  training in April and a former member of the Parian team,
+                  joined us. Little did we know that this temporary assignment
+                  would spark something permanent and beautiful.
+                </p>
+              </div>
+              <div class="col-md-12 favlist">
+                <img src="images/couple.jpg" alt="couple" />
+                <ul class="timeline">
+                  <li class="timeline-inverted">
+                    <div
+                      class="timeline-badge wow fadeInUp"
+                      data-wow-delay="0.5s"
+                    >
+                      <i class="icon icolove-married"></i>
+                    </div>
+                    <div
+                      class="timeline-panel wow fadeInLeft"
+                      data-wow-delay="0.7s"
+                    >
+                      <div class="timeline-heading">
+                        <h4 class="timeline-title">We will Get Married</h4>
+                        <p>
+                          <small class="text-muted"
+                            ><i class="fa fa-clock-o"></i> 28 September
+                            2024</small
+                          >
+                        </p>
+                      </div>
+                      <div class="timeline-body">
+                        <p>Soon</p>
+                        <div id="married"></div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div
+                      class="timeline-badge time wow fadeInUp"
+                      data-wow-delay="0.5s"
+                    >
+                      <i class="icon icolove-ring"></i>
+                    </div>
+                    <div
+                      class="timeline-panel wow fadeInRight"
+                      data-wow-delay="0.7s"
+                    >
+                      <div class="timeline-heading">
+                        <h4 class="timeline-title">Got Engaged</h4>
+                        <p>
+                          <small class="text-muted"
+                            ><i class="fa fa-clock-o"></i> 08 Sep 2023
+                          </small>
+                        </p>
+                      </div>
+                      <div class="timeline-body">
+                        <p>
+                          "So they are no longer two, but one flesh. Therefore
+                          what God has joined together, let no one separate."
+                          <br /><br />
+                          Matthew 19:6
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="timeline-inverted negative50">
+                    <div
+                      class="timeline-badge wow fadeInUp"
+                      data-wow-delay="0.5s"
+                    >
+                      <i class="icon icolove-meal"></i>
+                    </div>
+                    <div
+                      class="timeline-panel wow fadeInLeft"
+                      data-wow-delay="0.7s"
+                    >
+                      <div class="timeline-heading">
+                        <h4 class="timeline-title">Our First Date</h4>
+                        <p>
+                          <small class="text-muted"
+                            ><i class="fa fa-clock-o"></i> 02 Aug 2021
+                          </small>
+                        </p>
+                      </div>
+                      <div class="timeline-body">
+                        <p>
+                          Our first date was at Sachi in SM Seaside Cebu, where
+                          we enjoyed a delicious meal of ramen.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div
+                      class="timeline-badge wow fadeInUp"
+                      data-wow-delay="0.5s"
+                    >
+                      <i class="icon icolove-place"></i>
+                    </div>
+                    <div
+                      class="timeline-panel wow fadeInLeft"
+                      data-wow-delay="0.7s"
+                    >
+                      <div class="timeline-heading">
+                        <h4 class="timeline-title">Our First Met up</h4>
+                        <p>
+                          <small class="text-muted"
+                            ><i class="fa fa-clock-o"></i> 08 May 2021
+                          </small>
+                        </p>
+                      </div>
+                      <div class="timeline-body">
+                        <p>Our first met up was at Pari-an Fire Sub-Station.</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="separator"></div>
+      </section>
+
+      <!--Family Section-->
+      <section id="family" class="white">
+        <div class="container">
+          <div class="row">
+            <!--Our Family-->
+            <div class="col-md-12">
+              <div class="heading">
+                <h2
+                  class="wow fadeInUp underline padtop50"
+                  data-wow-delay="0.5s"
+                >
+                  Family Members
+                </h2>
+              </div>
+              <div class="col-md-4 man-family">
+                <h3>Jill's Family</h3>
+                <p>Vestil</p>
+                <div
+                  id="owl-man-family"
+                  class="owl-carousel wow fadeInUp"
+                  data-wow-delay="0.7s"
+                >
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-1.jpg"
+                        alt="team"
+                      />
+                      <h4>Wilfredo</h4>
+                      <h5>Father</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-2.jpg"
+                        alt="team"
+                      />
+                      <h4>Lamberto</h4>
+                      <h5>Father</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-3.jpg"
+                        alt="team"
+                      />
+                      <h4>Teresita</h4>
+                      <h5>Mother</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-4.jpg"
+                        alt="team"
+                      />
+                      <h4>Teresita</h4>
+                      <h5>Mother</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-5.jpg"
+                        alt="team"
+                      />
+                      <h4>Junwil</h4>
+                      <h5>Brother</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-6.jpg"
+                        alt="team"
+                      />
+                      <h4>Joann</h4>
+                      <h5>Sister</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <img
+                  class="img-responsive"
+                  src="images/couple-standing.jpg"
+                  alt="couple"
+                />
+              </div>
+              <div class="col-md-4 woman-family">
+                <h3>Lea Ann's Family</h3>
+                <p>Ocariza</p>
+                <div
+                  id="owl-woman-family"
+                  class="owl-carousel wow fadeInUp"
+                  data-wow-delay="0.7s"
+                >
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-7.jpg"
+                        alt="team"
+                      />
+                      <h4>Antonio</h4>
+                      <h5>Father</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-8.jpg"
+                        alt="team"
+                      />
+                      <h4>Lydia</h4>
+                      <h5>Mother</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-9.jpg"
+                        alt="team"
+                      />
+                      <h4>Anthony</h4>
+                      <h5>Brother</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-10.jpg"
+                        alt="team"
+                      />
+                      <h4>Jestony</h4>
+                      <h5>Brother</h5>
+                    </div>
+                  </div>
+
+                  <div class="owl-item">
+                    <div class="family-member">
+                      <img
+                        class="img-responsive"
+                        src="images/family-11.jpg"
+                        alt="team"
+                      />
+                      <h4>Marry Ann</h4>
+                      <h5>Sister</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Fun Facts-->
+              <div id="startcounting" class="row count">
+                <div class="col-md-12">
+                  <div class="heading wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="wow fadeIn underline padtop50">Fun Facts</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.7s">
+                      fun facts content
+                    </p>
+                  </div>
+                  <div
+                    class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY"
+                    data-wow-delay="0.7s"
+                  >
+                    <div class="fun-facts ico">
+                      <span class="icon icolove-movie"></span>
+                    </div>
+                    <span
+                      class="counts"
+                      data-from="0"
+                      data-to="300"
+                      data-speed="5000"
+                      data-refresh-interval="50"
+                      >0</span
+                    >
+                    <h5>Movies Watched</h5>
+                  </div>
+                  <div
+                    class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY"
+                    data-wow-delay="0.7s"
+                  >
+                    <div class="fun-facts ico">
+                      <span class="icon icolove-coffee"></span>
+                    </div>
+                    <span
+                      class="counts"
+                      data-from="0"
+                      data-to="550"
+                      data-speed="5000"
+                      data-refresh-interval="50"
+                      >0</span
+                    >
+                    <h5>Cup of Coffee</h5>
+                  </div>
+                  <div
+                    class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY"
+                    data-wow-delay="0.7s"
+                  >
+                    <div class="fun-facts ico">
+                      <span class="icon icolove-party"></span>
+                    </div>
+                    <span
+                      class="counts"
+                      data-from="0"
+                      data-to="150"
+                      data-speed="5000"
+                      data-refresh-interval="50"
+                      >0</span
+                    >
+                    <h5>Fun Parties</h5>
+                  </div>
+                  <div
+                    class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY"
+                    data-wow-delay="0.7s"
+                  >
+                    <div class="fun-facts ico">
+                      <span class="icon icolove-gamepad"></span>
+                    </div>
+                    <span
+                      class="counts"
+                      data-from="0"
+                      data-to="410"
+                      data-speed="5000"
+                      data-refresh-interval="50"
+                      >0</span
+                    >
+                    <h5>Game Played</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Big Moments-->
+      <section id="moments">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="padtop75 white"></div>
+            <div class="col-lg-12 video-parallax">
+              <div class="overlay"></div>
+              <video id="bgvideo" preload="auto" autoplay loop muted="muted">
+                <source src="video/sunset.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid white">
+          <!--Moments to remember-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading">
+                  <h2
+                    class="wow fadeInUp underline padtop50"
+                    data-wow-delay="0.5s"
+                  >
+                    Moments to Remember
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bigmoments">
+            <div id="owl-moments" class="owl-carousel">
+              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g1.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g1.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-photo fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g5.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g5.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-photo fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g2.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g2.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-video-camera fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g6.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g6.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-video-camera fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g3.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g3.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-photo fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g7.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g7.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-photo fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g4.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g4.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-video-camera fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g8.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g8.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-video-camera fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g1.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g1.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-photo fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g5.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g5.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-photo fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g2.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g2.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-video-camera fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g6.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g6.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-video-camera fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g3.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g3.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-photo fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g7.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g7.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-photo fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g4.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g4.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-video-camera fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+                <ul class="grid cs-style-3">
+                  <li>
+                    <figure>
+                      <img
+                        src="images/g8.jpg"
+                        class="img-responsive"
+                        alt="portfolio"
+                      />
+                      <a
+                        href="images/g8.jpg"
+                        class="popup-image"
+                        data-effect="mfp-zoom-in"
+                        ><span class="fa fa-video-camera fa-2x"></span
+                      ></a>
+                      <figcaption>
+                        <h4>Gallery</h4>
+                        <span>#ANNotherchapterwithJILL</span>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="separator"></div>
+        </div>
+      </section>
+
+      <!--E-Invite-->
+      <section id="einvite" class="white">
+        <!-- invitation -->
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading">
+                  <h2
+                    class="wow fadeInUp underline padtop50"
+                    data-wow-delay="0.5s"
+                  >
+                    Invitation & Timeline
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <img
+                  src="images/venue-1.jpg"
+                  class="img-responsive"
+                  style="height: 600px; margin: auto"
+                />
+              </div>
+
+              <div class="col-md-4 text-center">
+                <img
+                  src="images/venue-2.jpg"
+                  class="img-responsive"
+                  style="height: 600px; margin: auto"
+                />
+              </div>
+
+              <div class="col-md-4 text-center">
+                <img
+                  src="images/timeline.jpg"
+                  class="img-responsive"
+                  style="height: 600px; margin: auto"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="separator"></div>
+        </div>
+      </section>
+
+      <!-- Wedding Details -->
+      <section id="weddingdetails" class="white">
+        <!-- location -->
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading">
+                  <h2
+                    class="wow fadeInUp underline padtop50"
+                    data-wow-delay="0.5s"
+                  >
+                    Wedding Details
+                  </h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 text-center">
+                <img
+                  src="images/church.png"
+                  class="img-responsive"
+                  style="width: 50%; margin: auto"
+                />
+              </div>
+              <div class="col-md-6 text-center">
+                <h4
+                  class="wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="color: black; padding-top: 10px; font-weight: bold"
+                >
+                  Date
+                </h4>
+                <h2
+                  class="wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="color: black; font-family: 'Sansita Swashed'"
+                >
+                  September 28, 2024 | Saturday
+                </h2>
+
+                <h4
+                  class="wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="color: black; padding-top: 10px; font-weight: bold"
+                >
+                  Time
+                </h4>
+                <h2
+                  class="wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="color: black; font-family: 'Zen Antique'"
+                >
+                  04:00 PM
+                </h2>
+
+                <h4
+                  class="wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="color: black; padding-top: 10px; font-weight: bold"
+                >
+                  Ceremony
+                </h4>
+                <h2
+                  class="wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="color: black; font-family: 'Sansita Swashed'"
+                >
+                  Cebu Metropolitan Cathedral
+                </h2>
+
+                <h4
+                  class="wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="color: black; padding-top: 10px; font-weight: bold"
+                >
+                  Reception
+                </h4>
+                <h2
+                  class="wow fadeInUp"
+                  data-wow-delay="0.7s"
+                  style="color: black; font-family: 'Sansita Swashed'"
+                >
+                  BAI Hotel
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="separator"></div>
+        </div>
+      </section>
+
+      <!-- Attire -->
+      <section id="attire" class="white">
+        <!-- attire -->
+        <div class="container-fluid white">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="heading">
+                  <h2
+                    class="wow fadeInUp underline padtop50"
+                    data-wow-delay="0.5s"
+                  >
+                    Attire
+                  </h2>
+                  <p class="wow fadeInUp" data-wow-delay="0.7s">
+                    Principal sponsors (Formal Attire Only)<br />
+                    Ninong: Traditional Barong, Suit or Long Sleeves (with
+                    shades of gray)<br />
+                    Ninang: Long gown or dress (Beige or lighter shades of pink)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="wow flipInX" data-wow-delay="0.5s">
+                  <img
+                    src="images/attire 1.png"
+                    class="img-responsive"
+                    alt="portfolio"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="wow flipInX" data-wow-delay="0.5s">
+                  <img
+                    src="images/attire 2.png"
+                    class="img-responsive"
+                    alt="portfolio"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="wow flipInX" data-wow-delay="0.5s">
+                  <img
+                    src="images/attire 3.png"
+                    class="img-responsive"
+                    alt="portfolio"
+                    style="margin-top: 50px"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <p class="wow fadeInUp" data-wow-delay="0.7s">
+                  Note: Please reserve the color WHITE for the bride and also
+                  avoid wearing too revealing clothes, tattered jeans, sandos
+                  and above the knee dresses and skirts
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="separator"></div>
+        </div>
+      </section>
+
+      <!--Footer Section-->
+      <section class="footer">
+        <div class="container-fluid dark footer2">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <!--<img src="images/logo-grey.png" alt="logo"> -->
+                <p style="color: #fff">
+                  © #ANNotherchapterwithJILL 2024 - All Rights Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Al JS Plugins -->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <!-- <script src="js/annyang.min.js"></script> -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/smoothscrolling.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/fss.js"></script>
+    <script src="js/geo.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slide-fade-content.js"></script>
+    <!-- <script src="js/twitter/jquery.tweet.js"></script> -->
+    <script src="js/prefixfree.js"></script>
+    <script src="js/countup.js"></script>
+    <script src="js/modernizr.hover.js"></script>
+    <script src="js/confetti.min.js"></script>
+
+    <script>
+      function showContent() {
+        $("#pContent").removeAttr("style");
+        setTimeout(function () {
+          confetti.start();
+        }, 1000);
+        var $anchor = $(this);
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $($anchor.attr("pContent")).offset().top
+            },
+            1500,
+            "easeInOutExpo"
+          );
+        event.preventDefault();
+
+        setTimeout(function () {
+          confetti.stop();
+        }, 5000);
+      }
+
+      function hideContent() {
+        var $anchor = $(this);
+        $("html, body")
+          .stop()
+          .animate(
+            {
+              scrollTop: $($anchor.attr("myCarousel")).offset().top
+            },
+            1500,
+            "easeInOutExpo"
+          );
+        event.preventDefault();
+
+        $("#pContent").attr("style", "display:none;");
+      }
+    </script>
+  </body>
+</html>
