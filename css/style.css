@@ -1958,7 +1958,9 @@ video#bgvideo {
   }
 
   .ch-info p {
-    display: none;
+       margin-top: -70px;
+    line-height: 15px;
+    /* display: none; */
   }
 
   .man {
