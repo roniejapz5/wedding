@@ -957,23 +957,27 @@ a:focus {
 .event {
   margin: 30px;
   width: 320px;
-  background: #800020;
-  color: #fff;
+  background: #f7e7ce;
+  color: #8f7d60;
   text-align: center;
   padding: 20px;
+  height: 300px;
 }
 
 .alternative {
-  background: #c00433 !important;
+  background: #dbc5a3 !important;
 }
 
+.event h4 {
+  color: #656564;
+}
 .event i {
   font-size: 42px;
   padding: 10px 0px;
 }
 
 .event p {
-  color: #fff;
+  color: #656564;
   padding: 10px 0px;
 }
 
@@ -1958,7 +1962,7 @@ video#bgvideo {
   }
 
   .ch-info p {
-       margin-top: -70px;
+    margin-top: -70px;
     line-height: 15px;
     /* display: none; */
   }
