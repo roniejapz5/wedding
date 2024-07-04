@@ -838,6 +838,7 @@ a:focus {
 
 .family-member img {
   border-radius: 180px;
+  border: 5px solid #fdf4e7;
 }
 
 .family-member h4 {
