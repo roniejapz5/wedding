@@ -50,12 +50,12 @@ Last update:	02 Oct 2014
 [Color codes]
 
 Background:	#ffffff (White)
-Primary Color:	#800020 (Pink)
-Secondary Color:	#c00433 (Dark Pink)
+Primary Color:	#671f33 (Pink)
+Secondary Color:	#7c3751 (Dark Pink)
 Headers / Titles:	#283a44 (Dark Grey)
 Subtitles:	#687177 (Light Grey)
-a (standard):	#800020 (Pink)
-a (visited):	#c00433 (Dark Pink)
+a (standard):	#671f33 (Pink)
+a (visited):	#7c3751 (Dark Pink)
 
 -------------------------------------------------------- */
 
@@ -81,11 +81,11 @@ section {
   background: url(../images/sep.png) no-repeat center center;
 }
 ::selection {
-  background: #800020; /* Safari */
+  background: #671f33; /* Safari */
   color: #fff;
 }
 ::-moz-selection {
-  background: #800020; /* Firefox */
+  background: #671f33; /* Firefox */
   color: #fff;
 }
 h1,
@@ -95,7 +95,7 @@ h4 {
   color: #fff;
 }
 h2 span {
-  color: #800020;
+  color: #671f33;
   font-weight: bolder;
 }
 p {
@@ -133,13 +133,13 @@ p {
   background: #f5f4f4;
 }
 .color {
-  background: #800020;
+  background: #671f33;
 }
 .dark {
   background: #3d4428;
 }
 .pattern {
-  background: #800020 url(../images/pattern.png) repeat center center;
+  background: #671f33 url(../images/pattern.png) repeat center center;
 }
 
 /* 2. Core Bootstrap modifications Start  */
@@ -188,12 +188,12 @@ input[type="color"]:focus,
 }
 
 a {
-  color: #800020;
+  color: #671f33;
 }
 
 a:hover,
 a:focus {
-  color: #c00433;
+  color: #7c3751;
 }
 
 /* 3. Preloader */
@@ -203,7 +203,7 @@ a:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #800020; /* change if the mask should have another color then white */
+  background-color: #671f33; /* change if the mask should have another color then white */
 
   z-index: 9999999; /* makes sure it stays on top */
 }
@@ -288,7 +288,7 @@ a:focus {
 }
 
 .navbar-default {
-  background-color: #800020;
+  background-color: #671f33;
   border: none;
 }
 
@@ -311,7 +311,7 @@ a:focus {
 .navbar-default .nav > li.active a,
 .navbar-default .nav > li.active > a:focus,
 .navbar-default .nav > li.active > a:hover {
-  color: #800020;
+  color: #671f33;
   background: #fff;
 }
 
@@ -451,7 +451,7 @@ a:focus {
 .ui-widget-header {
   width: 100%;
   height: 5px;
-  background-color: #800020;
+  background-color: #671f33;
   position: absolute;
   z-index: 100;
 }
@@ -480,7 +480,7 @@ a:focus {
 }
 
 .heading i {
-  color: #800020;
+  color: #671f33;
   font-size: 12px;
 }
 
@@ -493,7 +493,7 @@ a:focus {
 }
 
 .heading span {
-  color: #800020;
+  color: #671f33;
 }
 
 .heading h3 {
@@ -514,7 +514,7 @@ a:focus {
   height: 3px;
   position: absolute;
   width: 100px;
-  background: #800020;
+  background: #671f33;
   margin: 0 auto;
   left: 0px;
   right: 0px;
@@ -558,7 +558,7 @@ a:focus {
   margin-top: 100px;
   font-size: 70px;
   margin-left: -22px;
-  color: #800020;
+  color: #671f33;
   z-index: 2;
   font-family: "Lato", sans-serif;
 }
@@ -763,7 +763,7 @@ a:focus {
   top: 16px;
   left: 50%;
   margin-left: -35px;
-  background-color: #800020;
+  background-color: #671f33;
   z-index: 2;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -774,12 +774,12 @@ a:focus {
   -o-transition: 0.4s;
   -ms-transition: 0.4s;
   transition: 0.4s;
-  border: 2px solid #800020;
+  border: 2px solid #671f33;
   cursor: pointer;
 }
 .timeline > li > .timeline-badge:hover {
   background: #fff;
-  color: #800020;
+  color: #671f33;
 }
 .timeline > li > .timeline-badge i {
   line-height: 75px;
@@ -802,7 +802,7 @@ a:focus {
 }
 .timeline-title {
   margin-top: 0;
-  color: #800020;
+  color: #671f33;
 }
 .timeline-body > p,
 .timeline-body > ul {
@@ -843,7 +843,7 @@ a:focus {
 
 .family-member h4 {
   padding: 10px;
-  color: #c00433;
+  color: #7c3751;
   margin: 0px;
   text-align: center;
 }
@@ -856,7 +856,7 @@ a:focus {
 
 .man-family h3,
 .woman-family h3 {
-  color: #800020;
+  color: #671f33;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 30px;
@@ -887,12 +887,12 @@ a:focus {
 .fun-facts span {
   width: 120px;
   height: 120px;
-  border: 2px #800020 solid;
+  border: 2px #671f33 solid;
   border-radius: 120px;
   background: #fff;
   line-height: 120px;
   text-align: center;
-  color: #800020;
+  color: #671f33;
   font-size: 50px;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -902,7 +902,7 @@ a:focus {
 }
 
 .fun-facts span:hover {
-  background: #800020;
+  background: #671f33;
   color: #fff;
   cursor: pointer;
 }
@@ -921,7 +921,7 @@ a:focus {
 
 .counts {
   font-size: 30px;
-  color: #800020;
+  color: #671f33;
 }
 
 .counting h5 {
@@ -946,7 +946,7 @@ a:focus {
 
 .playvid a:hover {
   text-decoration: none;
-  color: #800020;
+  color: #671f33;
 }
 .bigmoments .owl-carousel .owl-wrapper,
 .owl-carousel .owl-item {
@@ -1001,7 +1001,7 @@ a:focus {
 
 .favlist-name {
   width: 150px;
-  background: #800020;
+  background: #671f33;
   color: #fff;
   padding: 10px;
   display: inline-block;
@@ -1036,7 +1036,7 @@ a:focus {
   top: 16px;
   left: 50%;
   margin-left: -25px;
-  background-color: #800020;
+  background-color: #671f33;
   z-index: 2;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -1058,7 +1058,7 @@ a:focus {
 
 .common-icon {
   font-size: 42px !important;
-  color: #c00433;
+  color: #7c3751;
 }
 
 .common h4 {
@@ -1088,7 +1088,7 @@ a:focus {
   position: absolute;
   top: 0;
   margin-left: 10px;
-  background: #800020;
+  background: #671f33;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -1113,7 +1113,7 @@ a:focus {
 .blog h4 {
   background: #fff;
   margin: 0px;
-  color: #800020;
+  color: #671f33;
   padding: 20px;
 }
 
@@ -1133,11 +1133,11 @@ a:focus {
 }
 
 .blog a {
-  color: #800020;
+  color: #671f33;
 }
 
 .blog a:hover {
-  color: #c00433;
+  color: #7c3751;
 }
 
 .post {
@@ -1186,7 +1186,7 @@ a:focus {
   line-height: 50px;
   position: relative;
   font-size: 36px;
-  color: #800020;
+  color: #671f33;
   text-align: right;
   margin-right: 20px;
   margin-bottom: -145px;
@@ -1211,7 +1211,7 @@ a:focus {
 
 .extra-content h4,
 .blog-extra-content h4 {
-  color: #800020;
+  color: #671f33;
 }
 
 /* 12. Contact Section */
@@ -1287,7 +1287,7 @@ a:focus {
 .footer2 {
   padding: 18px 15px 0px 15px;
   color: #949da2;
-  border-bottom: 4px #800020 solid;
+  border-bottom: 4px #671f33 solid;
   text-align: center;
 }
 
@@ -1568,7 +1568,7 @@ video#bgvideo {
   top: 0;
   left: 0;
   padding: 10px;
-  background: #800020;
+  background: #671f33;
   color: #fff;
 }
 
@@ -1737,7 +1737,7 @@ video#bgvideo {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 3px solid #800020;
+  border: 3px solid #671f33;
   content: "";
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -1774,7 +1774,7 @@ video#bgvideo {
   display: inline-block;
   margin: 15px 0px;
   outline: none;
-  color: #800020;
+  color: #671f33;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1790,7 +1790,7 @@ video#bgvideo {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 3px solid #800020;
+  border: 3px solid #671f33;
   content: "";
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -2158,7 +2158,7 @@ video#bgvideo {
   height: 3px;
   position: absolute;
   width: 100px;
-  background: #800020;
+  background: #671f33;
   margin: 0 auto;
   left: 0px;
   bottom: 0px;
@@ -2182,7 +2182,7 @@ video#bgvideo {
   height: 3px;
   position: absolute;
   width: 100px;
-  background: #800020;
+  background: #671f33;
   margin: 0 auto;
   left: 0px;
   bottom: 0px;
@@ -2225,7 +2225,7 @@ video#bgvideo {
 }
 
 .blog-tags li {
-  background: #800020;
+  background: #671f33;
   color: #fff;
   padding: 4px 8px;
   margin: 3px;
@@ -2236,7 +2236,7 @@ video#bgvideo {
 }
 
 .blog-tags li:hover {
-  background: #c00433;
+  background: #7c3751;
 }
 
 .blog-tags li a {
@@ -2278,7 +2278,7 @@ video#bgvideo {
   position: absolute;
   width: 60px;
   height: 60px;
-  background: #800020;
+  background: #671f33;
   text-align: center;
   line-height: 60px;
   font-size: 25px;
@@ -2318,7 +2318,7 @@ video#bgvideo {
   font-size: 14px;
   text-decoration: none;
   background-color: transparent;
-  border: 2px solid #800020;
+  border: 2px solid #671f33;
   margin-right: 5px;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -2330,13 +2330,13 @@ video#bgvideo {
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  background-color: #800020;
+  background-color: #671f33;
   color: #fff;
 }
 
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  background-color: #800020;
+  background-color: #671f33;
   color: #fff;
 }
 
@@ -2357,7 +2357,7 @@ video#bgvideo {
 }
 
 .post-author .author-details h4 {
-  color: #800020;
+  color: #671f33;
 }
 
 .post-comments {
@@ -2478,7 +2478,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #800020;
+  color: #671f33;
   background-color: transparent;
 }
 
@@ -2495,7 +2495,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-size: 14px;
   text-align: center;
   list-style: none;
-  background-color: #800020;
+  background-color: #671f33;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: none;
@@ -2531,20 +2531,20 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   line-height: 1.42857143;
   color: #fff !important;
   white-space: nowrap;
-  background-color: #800020 !important;
+  background-color: #671f33 !important;
 }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #c00433 !important;
+  background-color: #7c3751 !important;
 }
 
 /* 19.Wedding Page */
 
 .selected a {
-  color: #800020 !important;
+  color: #671f33 !important;
 }
 
 .wedding {
@@ -2585,7 +2585,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .bestfriends h4 {
   background: #fff;
   margin: 0px;
-  color: #800020;
+  color: #671f33;
   padding: 20px 20px 0px;
 }
 
@@ -2607,7 +2607,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .venue h4 {
-  color: #800020;
+  color: #671f33;
   text-transform: uppercase;
 }
 
@@ -2620,12 +2620,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .day-details h4 {
-  color: #800020;
+  color: #671f33;
   text-transform: uppercase;
 }
 
 .day-details:hover {
-  background: #800020;
+  background: #671f33;
 }
 
 .day-details:hover h4,
@@ -2639,7 +2639,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin: 70px 15px 40px;
 }
 #map h3 {
-  color: #800020;
+  color: #671f33;
 }
 
 #owl-gifts .owl-pagination {
