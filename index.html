@@ -142,7 +142,6 @@
           <div
             class="btn-special slideInUp wow animated page-scroll"
             data-wow-delay="0.7s"
-            onclick="showContent()"
           >
             <a href="#about">CLICK ME!</a>
           </div>
@@ -184,83 +183,477 @@
       </div>
     </div>
 
-    <div id="pContent" style="display: none">
-      <div id="about"></div>
-      <!--Navbar-->
-      <div class="topbar-nav">
-        <nav class="navbar navbar-default navbar-custom" role="navigation">
-          <div class="container">
-            <div class="navbar-header page-scroll">
-              <button
-                type="button"
-                class="navbar-toggle"
-                data-toggle="collapse"
-                data-target=".navbar-main-collapse"
-              >
-                <i class="fa fa-bars"></i>
-              </button>
-              <a class="navbar-brand" href="#page-top" onclick="hideContent()">
-                <img src="images/logo.png" alt="logo" />
-              </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div
-              class="collapse navbar-collapse navbar-right navbar-main-collapse"
+    <!-- <div id="pContent" style="display: nonde"> -->
+    <div id="about"></div>
+    <!--Navbar-->
+    <div class="topbar-nav">
+      <nav class="navbar navbar-default navbar-custom" role="navigation">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-main-collapse"
             >
-              <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from Adam & Eve link when scrolled up past about section -->
-                <li class="hidden">
-                  <a href="#page-top"></a>
-                </li>
-                <li class="page-scroll dropdown">
-                  <a
-                    href="#about"
-                    class="dropdown-toggle"
-                    data-toggle="dropdown"
-                    >Jill & Lea Ann</a
-                  >
-                  <ul class="dropdown-menu wow swing" role="menu">
-                    <li><a href="#howtheymeet">How they meet</a></li>
-                  </ul>
-                </li>
-                <li class="page-scroll">
-                  <a href="#family">Our Family</a>
-                </li>
-                <li class="page-scroll">
-                  <a href="#moments">Big Moments</a>
-                </li>
-                <li class="page-scroll dropdown">
-                  <a
-                    href="#einvite"
-                    class="dropdown-toggle"
-                    data-toggle="dropdown"
-                    >E-Invite</a
-                  >
-                  <ul class="dropdown-menu wow swing" role="menu">
-                    <li><a href="#weddingdetails">Wedding Details</a></li>
-                    <li><a href="#dresscode">Dress Code</a></li>
-                  </ul>
-                </li>
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#page-top" onclick="hideContent()">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse navbar-right navbar-main-collapse"
+          >
+            <ul class="nav navbar-nav">
+              <!-- Hidden li included to remove active class from Adam & Eve link when scrolled up past about section -->
+              <li class="hidden">
+                <a href="#page-top"></a>
+              </li>
+              <li class="page-scroll dropdown">
+                <a href="#about" class="dropdown-toggle" data-toggle="dropdown"
+                  >Jill & Lea Ann</a
+                >
+                <ul class="dropdown-menu wow swing" role="menu">
+                  <li><a href="#howtheymeet">How they meet</a></li>
+                </ul>
+              </li>
+              <li class="page-scroll">
+                <a href="#family">Our Family</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#moments">Big Moments</a>
+              </li>
+              <li class="page-scroll dropdown">
+                <a
+                  href="#einvite"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  >E-Invite</a
+                >
+                <ul class="dropdown-menu wow swing" role="menu">
+                  <li><a href="#weddingdetails">Wedding Details</a></li>
+                  <li><a href="#dresscode">Dress Code</a></li>
+                </ul>
+              </li>
 
+              <li>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdSNLDFsziuIdJrMfAYzLCL8TcOMRPytYGaB1Il7_i14HO4zw/viewform"
+                  target="_blank"
+                  >RSVP</a
+                >
+              </li>
+              <li class="page-scroll">
+                <a href="#faqs">FAQ's</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+      </nav>
+    </div>
+
+    <!--Jill & Lea Ann Section-->
+    <section id="aboutthem" class="white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">
+              <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">
+                Welcome Everyone
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay="0.7s">
+                Welcome to Jill & Lea Ann's website, where we proudly share our
+                love story with all its ups and downs, great moments, and happy
+                events.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="col-md-6">
+              <ul class="ch-grid man wow flipInX" data-wow-delay="0.5s">
                 <li>
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdSNLDFsziuIdJrMfAYzLCL8TcOMRPytYGaB1Il7_i14HO4zw/viewform"
-                    target="_blank"
-                    >RSVP</a
-                  >
-                </li>
-                <li class="page-scroll">
-                  <a href="#faqs">FAQ's</a>
+                  <div class="ch-item ch-img-1">
+                    <div class="ch-info">
+                      <h3>I'm Jill</h3>
+                      <p>
+                        My heart found its home with Ann, and every day since
+                        has been filled with love, laughter, and joy. I’m
+                        thrilled to share our special day with you and grateful
+                        for the love and support from our incredible family and
+                        friends.
+                      </p>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            <div class="and">&amp;</div>
+            <div class="col-md-6">
+              <ul class="ch-grid woman wow flipInX" data-wow-delay="0.5s">
+                <li>
+                  <div class="ch-item ch-img-2">
+                    <div class="ch-info">
+                      <h3>I'm Lea Ann</h3>
+                      <p>
+                        Meeting Jill has been the highlight of my journey,
+                        bringing endless joy and love into my life. I can’t wait
+                        to celebrate our special day with all the amazing people
+                        who have supported us. Thank you for being a part of our
+                        story!
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-        </nav>
+        </div>
+      </div>
+      <div class="separator"></div>
+    </section>
+
+    <!--How they meet-->
+    <section id="howtheymeet" class="white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">
+              <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">
+                How they meet
+              </h2>
+              <p
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="text-align: justify"
+              >
+                They first met at the Parian Fire Station. Ann was on detached
+                service at the Cebu City Fire Station starting February 16,
+                2021, a period marked by a shortage of personnel due to many
+                firefighters undergoing their Fire Basic Recruit Course (FBRC),
+                which stretched over five months. To fill the gaps in
+                operations, temporary help was needed every Saturday and Sunday.
+                It was during this time that Jill, a recent FBRC graduate and
+                former member of the Parian team, joined them.
+                <br /><br />
+                Little did Ann and Jill realize that what began as a temporary
+                assignment would ignite something permanent and beautiful.
+              </p>
+            </div>
+            <div class="col-md-12 favlist">
+              <img
+                src="images/couple.jpg"
+                class="wow fadeInUp"
+                data-wow-delay="0.5s"
+              />
+              <ul class="timeline">
+                <li class="timeline-inverted">
+                  <div
+                    class="timeline-badge wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <i class="icon icolove-married"></i>
+                  </div>
+                  <div
+                    class="timeline-panel wow fadeInLeft"
+                    data-wow-delay="0.5s"
+                  >
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">WE WILL GET MARRIED</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o"></i> 28 September
+                          2024</small
+                        >
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Soon</p>
+                      <div id="married"></div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    class="timeline-badge time wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <i class="icon icolove-ring"></i>
+                  </div>
+                  <div
+                    class="timeline-panel wow fadeInRight"
+                    data-wow-delay="0.5s"
+                  >
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">GOT ENGAGED</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o"></i> 08 Sep 2023
+                        </small>
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        "So they are no longer two, but one flesh. Therefore
+                        what God has joined together, let no one separate."
+                        <br /><br />
+                        Matthew 19:6
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="timeline-inverted negative50">
+                  <div
+                    class="timeline-badge wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <i class="icon icolove-meal"></i>
+                  </div>
+                  <div
+                    class="timeline-panel wow fadeInLeft"
+                    data-wow-delay="0.5s"
+                  >
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">OUR FIRST DATE</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o"></i> 02 Aug 2021
+                        </small>
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Our first date was at Sachi in SM Seaside Cebu, where we
+                        enjoyed a delicious meal of ramen.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    class="timeline-badge wow fadeInUp"
+                    data-wow-delay="0.5s"
+                  >
+                    <i class="icon icolove-place"></i>
+                  </div>
+                  <div
+                    class="timeline-panel wow fadeInLeft"
+                    data-wow-delay="0.5s"
+                  >
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">OUR FIRST MEET UP</h4>
+                      <p>
+                        <small class="text-muted"
+                          ><i class="fa fa-clock-o"></i> 08 May 2021
+                        </small>
+                      </p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Our first met up was at Pari-an Fire Sub-Station.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separator"></div>
+    </section>
+
+    <!--Family Section-->
+    <section id="family" class="white">
+      <div class="container">
+        <div class="row">
+          <!--Our Family-->
+          <div class="col-md-12">
+            <div class="heading">
+              <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">
+                Family Members
+              </h2>
+            </div>
+            <div class="col-md-4 man-family">
+              <h3>Jill's Family</h3>
+              <p>Vestil</p>
+              <div
+                id="owl-man-family"
+                class="owl-carousel wow fadeInUp"
+                data-wow-delay="0.7s"
+              >
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-1.jpg"
+                      alt="team"
+                    />
+                    <h4>Wilfredo</h4>
+                    <h5>Father</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-2.jpg"
+                      alt="team"
+                    />
+                    <h4>Lamberto</h4>
+                    <h5>Father</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-3.jpg"
+                      alt="team"
+                    />
+                    <h4>Teresa</h4>
+                    <h5>Mother</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-4.jpg"
+                      alt="team"
+                    />
+                    <h4>Virginia</h4>
+                    <h5>Mother</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-5.jpg"
+                      alt="team"
+                    />
+                    <h4>Junwil</h4>
+                    <h5>Brother</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-6.jpg"
+                      alt="team"
+                    />
+                    <h4>Joann</h4>
+                    <h5>Sister</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img
+                class="img-responsive wow fadeInUp"
+                src="images/couple-standing.jpg"
+                data-wow-delay="0.5s"
+              />
+            </div>
+            <div class="col-md-4 woman-family">
+              <h3>Lea Ann's Family</h3>
+              <p>Ocariza</p>
+              <div
+                id="owl-woman-family"
+                class="owl-carousel wow fadeInUp"
+                data-wow-delay="0.7s"
+              >
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-7.jpg"
+                      alt="team"
+                    />
+                    <h4>Antonio</h4>
+                    <h5>Father</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-8.jpg"
+                      alt="team"
+                    />
+                    <h4>Lydia</h4>
+                    <h5>Mother</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-9.jpg"
+                      alt="team"
+                    />
+                    <h4>Anthony</h4>
+                    <h5>Brother</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-10.jpg"
+                      alt="team"
+                    />
+                    <h4>Jestony</h4>
+                    <h5>Brother</h5>
+                  </div>
+                </div>
+
+                <div class="owl-item">
+                  <div class="family-member">
+                    <img
+                      class="img-responsive"
+                      src="images/family-11.jpg"
+                      alt="team"
+                    />
+                    <h4>Marry Ann</h4>
+                    <h5>Sister</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Big Moments-->
+    <section id="moments">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="padtop75 white"></div>
+          <div class="col-lg-12 video-parallax">
+            <div class="overlay"></div>
+            <video id="bgvideo" preload="auto" autoplay loop muted="muted">
+              <source src="video/sunset.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
       </div>
 
-      <!--Jill & Lea Ann Section-->
-      <section id="aboutthem" class="white">
+      <div class="container-fluid white">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -269,61 +662,387 @@
                   class="wow fadeInUp underline padtop50"
                   data-wow-delay="0.5s"
                 >
-                  Welcome Everyone
+                  Moments to Remember
                 </h2>
-                <p class="wow fadeInUp" data-wow-delay="0.7s">
-                  Welcome to Jill & Lea Ann's website, where we proudly share
-                  our love story with all its ups and downs, great moments, and
-                  happy events.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="col-md-6">
-                <ul class="ch-grid man wow flipInX" data-wow-delay="0.5s">
-                  <li>
-                    <div class="ch-item ch-img-1">
-                      <div class="ch-info">
-                        <h3>I'm Jill</h3>
-                        <p>
-                          My heart found its home with Ann, and every day since
-                          has been filled with love, laughter, and joy. I’m
-                          thrilled to share our special day with you and
-                          grateful for the love and support from our incredible
-                          family and friends.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div class="and">&amp;</div>
-              <div class="col-md-6">
-                <ul class="ch-grid woman wow flipInX" data-wow-delay="0.5s">
-                  <li>
-                    <div class="ch-item ch-img-2">
-                      <div class="ch-info">
-                        <h3>I'm Lea Ann</h3>
-                        <p>
-                          Meeting Jill has been the highlight of my journey,
-                          bringing endless joy and love into my life. I can’t
-                          wait to celebrate our special day with all the amazing
-                          people who have supported us. Thank you for being a
-                          part of our story!
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="bigmoments">
+          <div id="owl-moments" class="owl-carousel">
+            <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g1.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g1.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      data-pswp-width="1200"
+                      data-pswp-height="800"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g5.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g5.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g2.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g2.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g6.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g6.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g3.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g3.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g7.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g7.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g4.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g4.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g8.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g8.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g1.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g1.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g5.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g5.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g2.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g2.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g6.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g6.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g3.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g3.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g7.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g7.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g4.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g4.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="grid cs-style-3">
+                <li>
+                  <figure>
+                    <img
+                      src="images/g8.jpg"
+                      class="img-responsive"
+                      alt="portfolio"
+                    />
+                    <a
+                      href="images/g8.jpg"
+                      class="popup-image"
+                      data-effect="mfp-zoom-in"
+                      ><span class="fa fa-photo fa-2x"></span
+                    ></a>
+                    <figcaption>
+                      <h4>Gallery</h4>
+                      <span>#ANNotherchapterwithJILL</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         <div class="separator"></div>
-      </section>
+      </div>
+    </section>
 
-      <!--How they meet-->
-      <section id="howtheymeet" class="white">
+    <!--E-Invite-->
+    <section id="einvite" class="white">
+      <!-- invitation -->
+      <div class="container-fluid">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -332,964 +1051,123 @@
                   class="wow fadeInUp underline padtop50"
                   data-wow-delay="0.5s"
                 >
-                  How they meet
-                </h2>
-                <p
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="text-align: justify"
-                >
-                  They first met at the Parian Fire Station. Ann was on detached
-                  service at the Cebu City Fire Station starting February 16,
-                  2021, a period marked by a shortage of personnel due to many
-                  firefighters undergoing their Fire Basic Recruit Course
-                  (FBRC), which stretched over five months. To fill the gaps in
-                  operations, temporary help was needed every Saturday and
-                  Sunday. It was during this time that Jill, a recent FBRC
-                  graduate and former member of the Parian team, joined them.
-                  <br /><br />
-                  Little did Ann and Jill realize that what began as a temporary
-                  assignment would ignite something permanent and beautiful.
-                </p>
-              </div>
-              <div class="col-md-12 favlist">
-                <img src="images/couple.jpg" alt="couple" />
-                <ul class="timeline">
-                  <li class="timeline-inverted">
-                    <div
-                      class="timeline-badge wow fadeInUp"
-                      data-wow-delay="0.5s"
-                    >
-                      <i class="icon icolove-married"></i>
-                    </div>
-                    <div
-                      class="timeline-panel wow fadeInLeft"
-                      data-wow-delay="0.7s"
-                    >
-                      <div class="timeline-heading">
-                        <h4 class="timeline-title">WE WILL GET MARRIED</h4>
-                        <p>
-                          <small class="text-muted"
-                            ><i class="fa fa-clock-o"></i> 28 September
-                            2024</small
-                          >
-                        </p>
-                      </div>
-                      <div class="timeline-body">
-                        <p>Soon</p>
-                        <div id="married"></div>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div
-                      class="timeline-badge time wow fadeInUp"
-                      data-wow-delay="0.5s"
-                    >
-                      <i class="icon icolove-ring"></i>
-                    </div>
-                    <div
-                      class="timeline-panel wow fadeInRight"
-                      data-wow-delay="0.7s"
-                    >
-                      <div class="timeline-heading">
-                        <h4 class="timeline-title">GOT ENGAGED</h4>
-                        <p>
-                          <small class="text-muted"
-                            ><i class="fa fa-clock-o"></i> 08 Sep 2023
-                          </small>
-                        </p>
-                      </div>
-                      <div class="timeline-body">
-                        <p>
-                          "So they are no longer two, but one flesh. Therefore
-                          what God has joined together, let no one separate."
-                          <br /><br />
-                          Matthew 19:6
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li class="timeline-inverted negative50">
-                    <div
-                      class="timeline-badge wow fadeInUp"
-                      data-wow-delay="0.5s"
-                    >
-                      <i class="icon icolove-meal"></i>
-                    </div>
-                    <div
-                      class="timeline-panel wow fadeInLeft"
-                      data-wow-delay="0.7s"
-                    >
-                      <div class="timeline-heading">
-                        <h4 class="timeline-title">OUR FIRST DATE</h4>
-                        <p>
-                          <small class="text-muted"
-                            ><i class="fa fa-clock-o"></i> 02 Aug 2021
-                          </small>
-                        </p>
-                      </div>
-                      <div class="timeline-body">
-                        <p>
-                          Our first date was at Sachi in SM Seaside Cebu, where
-                          we enjoyed a delicious meal of ramen.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div
-                      class="timeline-badge wow fadeInUp"
-                      data-wow-delay="0.5s"
-                    >
-                      <i class="icon icolove-place"></i>
-                    </div>
-                    <div
-                      class="timeline-panel wow fadeInLeft"
-                      data-wow-delay="0.7s"
-                    >
-                      <div class="timeline-heading">
-                        <h4 class="timeline-title">OUR FIRST MEET UP</h4>
-                        <p>
-                          <small class="text-muted"
-                            ><i class="fa fa-clock-o"></i> 08 May 2021
-                          </small>
-                        </p>
-                      </div>
-                      <div class="timeline-body">
-                        <p>Our first met up was at Pari-an Fire Sub-Station.</p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="separator"></div>
-      </section>
-
-      <!--Family Section-->
-      <section id="family" class="white">
-        <div class="container">
-          <div class="row">
-            <!--Our Family-->
-            <div class="col-md-12">
-              <div class="heading">
-                <h2
-                  class="wow fadeInUp underline padtop50"
-                  data-wow-delay="0.5s"
-                >
-                  Family Members
+                  Invitation & Timeline
                 </h2>
               </div>
-              <div class="col-md-4 man-family">
-                <h3>Jill's Family</h3>
-                <p>Vestil</p>
-                <div
-                  id="owl-man-family"
-                  class="owl-carousel wow fadeInUp"
-                  data-wow-delay="0.7s"
-                >
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-1.jpg"
-                        alt="team"
-                      />
-                      <h4>Wilfredo</h4>
-                      <h5>Father</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-2.jpg"
-                        alt="team"
-                      />
-                      <h4>Lamberto</h4>
-                      <h5>Father</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-3.jpg"
-                        alt="team"
-                      />
-                      <h4>Teresa</h4>
-                      <h5>Mother</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-4.jpg"
-                        alt="team"
-                      />
-                      <h4>Virginia</h4>
-                      <h5>Mother</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-5.jpg"
-                        alt="team"
-                      />
-                      <h4>Junwil</h4>
-                      <h5>Brother</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-6.jpg"
-                        alt="team"
-                      />
-                      <h4>Joann</h4>
-                      <h5>Sister</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <img
-                  class="img-responsive"
-                  src="images/couple-standing.jpg"
-                  alt="couple"
-                />
-              </div>
-              <div class="col-md-4 woman-family">
-                <h3>Lea Ann's Family</h3>
-                <p>Ocariza</p>
-                <div
-                  id="owl-woman-family"
-                  class="owl-carousel wow fadeInUp"
-                  data-wow-delay="0.7s"
-                >
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-7.jpg"
-                        alt="team"
-                      />
-                      <h4>Antonio</h4>
-                      <h5>Father</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-8.jpg"
-                        alt="team"
-                      />
-                      <h4>Lydia</h4>
-                      <h5>Mother</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-9.jpg"
-                        alt="team"
-                      />
-                      <h4>Anthony</h4>
-                      <h5>Brother</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-10.jpg"
-                        alt="team"
-                      />
-                      <h4>Jestony</h4>
-                      <h5>Brother</h5>
-                    </div>
-                  </div>
-
-                  <div class="owl-item">
-                    <div class="family-member">
-                      <img
-                        class="img-responsive"
-                        src="images/family-11.jpg"
-                        alt="team"
-                      />
-                      <h4>Marry Ann</h4>
-                      <h5>Sister</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!--Big Moments-->
-      <section id="moments">
-        <div class="container-fluid">
           <div class="row">
-            <div class="padtop75 white"></div>
-            <div class="col-lg-12 video-parallax">
-              <div class="overlay"></div>
-              <video id="bgvideo" preload="auto" autoplay loop muted="muted">
-                <source src="video/sunset.mp4" type="video/mp4" />
-              </video>
-            </div>
-          </div>
-        </div>
-
-        <div class="container-fluid white">
-          <!--Moments to remember-->
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="heading">
-                  <h2
-                    class="wow fadeInUp underline padtop50"
-                    data-wow-delay="0.5s"
-                  >
-                    Moments to Remember
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="bigmoments">
-            <div id="owl-moments" class="owl-carousel">
-              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g1.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g1.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-photo fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g5.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g5.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-photo fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g2.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g2.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-video-camera fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g6.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g6.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-video-camera fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g3.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g3.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-photo fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g7.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g7.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-photo fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g4.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g4.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-video-camera fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g8.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g8.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-video-camera fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g1.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g1.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-photo fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g5.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g5.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-photo fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g2.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g2.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-video-camera fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g6.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g6.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-video-camera fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g3.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g3.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-photo fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g7.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g7.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-photo fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g4.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g4.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-video-camera fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-                <ul class="grid cs-style-3">
-                  <li>
-                    <figure>
-                      <img
-                        src="images/g8.jpg"
-                        class="img-responsive"
-                        alt="portfolio"
-                      />
-                      <a
-                        href="images/g8.jpg"
-                        class="popup-image"
-                        data-effect="mfp-zoom-in"
-                        ><span class="fa fa-video-camera fa-2x"></span
-                      ></a>
-                      <figcaption>
-                        <h4>Gallery</h4>
-                        <span>#ANNotherchapterwithJILL</span>
-                      </figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="separator"></div>
-        </div>
-      </section>
-
-      <!--E-Invite-->
-      <section id="einvite" class="white">
-        <!-- invitation -->
-        <div class="container-fluid">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="heading">
-                  <h2
-                    class="wow fadeInUp underline padtop50"
-                    data-wow-delay="0.5s"
-                  >
-                    Invitation & Timeline
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4 text-center" style="margin-bottom: 20px">
+            <div
+              class="col-md-4 wow flipInX"
+              style="margin-bottom: 20px"
+              data-wow-delay="0.5s"
+            >
+              <a
+                href="images/inv1.jpg"
+                class="popup-image"
+                data-effect="mfp-zoom-in"
+              >
                 <img
                   src="images/inv1.jpg"
                   class="img-responsive"
+                  class="img-responsive"
                   style="height: 450px; margin: auto"
-                />
-              </div>
+              /></a>
+            </div>
 
-              <div class="col-md-4 text-center" style="margin-bottom: 20px">
+            <div
+              class="col-md-4 wow flipInX"
+              style="margin-bottom: 20px"
+              data-wow-delay="0.5s"
+            >
+              <a
+                href="images/inv2.jpg"
+                class="popup-image"
+                data-effect="mfp-zoom-in"
+              >
                 <img
                   src="images/inv2.jpg"
                   class="img-responsive"
                   style="height: 450px; margin: auto"
                 />
-              </div>
+              </a>
+            </div>
 
-              <div class="col-md-4 text-center" style="margin-bottom: 20px">
+            <div
+              class="col-md-4 wow flipInX"
+              style="margin-bottom: 20px"
+              data-wow-delay="0.5s"
+            >
+              <a
+                href="images/inv3.jpg"
+                class="popup-image"
+                data-effect="mfp-zoom-in"
+              >
                 <img
                   src="images/inv3.jpg"
                   class="img-responsive"
                   style="height: 450px; margin: auto"
-                />
-              </div>
+              /></a>
+            </div>
 
-              <div class="col-md-4 text-center" style="margin-bottom: 20px">
+            <div
+              class="col-md-4 wow flipInX"
+              style="margin-bottom: 20px"
+              data-wow-delay="0.5s"
+            >
+              <a
+                href="images/inv4.jpg"
+                class="popup-image"
+                data-effect="mfp-zoom-in"
+              >
                 <img
                   src="images/inv4.jpg"
                   class="img-responsive"
                   style="height: 450px; margin: auto"
-                />
-              </div>
-              <div class="col-md-4 text-center" style="margin-bottom: 20px">
+              /></a>
+            </div>
+            <div
+              class="col-md-4 wow flipInX"
+              style="margin-bottom: 20px"
+              data-wow-delay="0.5s"
+            >
+              <a
+                href="images/inv5.jpg"
+                class="popup-image"
+                data-effect="mfp-zoom-in"
+              >
                 <img
                   src="images/inv5.jpg"
                   class="img-responsive"
                   style="height: 450px; margin: auto"
-                />
-              </div>
-              <div class="col-md-4 text-center">
+              /></a>
+            </div>
+            <div
+              class="col-md-4 wow flipInX"
+              style="margin-bottom: 20px"
+              data-wow-delay="0.5s"
+            >
+              <a
+                href="images/timeline.jpg"
+                class="popup-image"
+                data-effect="mfp-zoom-in"
+              >
                 <img
                   src="images/timeline.jpg"
                   class="img-responsive"
                   style="height: 450px; margin: auto"
-                />
-              </div>
+              /></a>
             </div>
           </div>
-          <div class="separator"></div>
         </div>
-      </section>
+        <div class="separator"></div>
+      </div>
+    </section>
 
-      <!-- Wedding Details -->
-      <section id="weddingdetails" class="white">
-        <!-- location -->
-        <div class="container-fluid">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="heading">
-                  <h2
-                    class="wow fadeInUp underline padtop50"
-                    data-wow-delay="0.5s"
-                  >
-                    Wedding Details
-                  </h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6 text-center">
-                <img
-                  src="images/church.png"
-                  class="img-responsive"
-                  style="width: 50%; margin: auto"
-                />
-              </div>
-              <div class="col-md-6 text-center">
-                <h4
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="color: black; padding-top: 10px; font-weight: bold"
-                >
-                  Date
-                </h4>
-                <h2
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="color: black; font-family: 'Sansita Swashed'"
-                >
-                  September 28, 2024 | Saturday
-                </h2>
-
-                <h4
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="color: black; padding-top: 10px; font-weight: bold"
-                >
-                  Time
-                </h4>
-                <h2
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="color: black; font-family: 'Zen Antique'"
-                >
-                  04:00 PM
-                </h2>
-
-                <h4
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="color: black; padding-top: 10px; font-weight: bold"
-                >
-                  Ceremony
-                </h4>
-                <h2
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="color: black; font-family: 'Sansita Swashed'"
-                >
-                  Cebu Metropolitan Cathedral
-                </h2>
-
-                <h4
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="color: black; padding-top: 10px; font-weight: bold"
-                >
-                  Reception
-                </h4>
-                <h2
-                  class="wow fadeInUp"
-                  data-wow-delay="0.7s"
-                  style="color: black; font-family: 'Sansita Swashed'"
-                >
-                  BAI Hotel
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div class="separator"></div>
-        </div>
-      </section>
-
-      <!-- Dress Code -->
-      <section id="dresscode" class="white">
-        <div class="container-fluid white">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="heading">
-                  <h2
-                    class="wow fadeInUp underline padtop50"
-                    data-wow-delay="0.5s"
-                  >
-                    Dress Code
-                  </h2>
-
-                  <p class="wow fadeInUp text-center" data-wow-delay="0.7s">
-                    This is a formal event. Kindly dressed in your best. We
-                    encourage you to be as fashionable and stylish as you want,
-                    but kindly follow the colors indicated.
-
-                    <br />
-                    <br />
-
-                    Black suit/barong/ formal for the gentlemen
-                    <br />
-                    <br />
-
-                    Evening gown/long dress/ formal dress for the ladies
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4">
-                <div class="wow flipInX" data-wow-delay="0.5s">
-                  <img
-                    src="images/attire 1.jpg"
-                    class="img-responsive"
-                    alt="portfolio"
-                  />
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="wow flipInX" data-wow-delay="0.5s">
-                  <img
-                    src="images/attire 2.jpg"
-                    class="img-responsive"
-                    alt="portfolio"
-                  />
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="wow flipInX" data-wow-delay="0.5s">
-                  <img
-                    src="images/attire 3.jpg"
-                    class="img-responsive"
-                    alt="portfolio"
-                  />
-                </div>
-              </div>
-
-              <!-- <div class="col-md-12 text-center">
-                <p class="wow fadeInUp" data-wow-delay="0.7s">
-                  Note: Please reserve the color WHITE for the bride and also
-                  avoid wearing too revealing clothes, tattered jeans, sandos
-                  and above the knee dresses and skirts
-                </p>
-              </div> -->
-            </div>
-          </div>
-
-          <div class="separator"></div>
-        </div>
-      </section>
-
-      <!-- FAQ's -->
-      <section id="faqs" class="white">
-        <!--Special Events-->
+    <!-- Wedding Details -->
+    <section id="weddingdetails" class="white">
+      <div class="container-fluid">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -1298,221 +1176,337 @@
                   class="wow fadeInUp underline padtop50"
                   data-wow-delay="0.5s"
                 >
-                  Frequently Asked Questions
+                  Wedding Details
                 </h2>
               </div>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-md-3 text-center" style="margin-bottom: 20px">
+            <div class="col-md-6 text-center">
               <img
-                src="images/faq1.jpg"
-                class="img-responsive"
-                style="height: 298; margin: auto"
+                src="images/church.png"
+                class="img-responsive wow fadeInUp"
+                style="width: 50%; margin: auto"
+                data-wow-delay="0.5s"
               />
             </div>
-            <div class="col-md-3 text-center" style="margin-bottom: 20px">
-              <img
-                src="images/faq2.jpg"
-                class="img-responsive"
-                style="height: 298; margin: auto"
-              />
-            </div>
-            <div class="col-md-3 text-center" style="margin-bottom: 20px">
-              <img
-                src="images/faq3.jpg"
-                class="img-responsive"
-                style="height: 298; margin: auto"
-              />
-            </div>
-            <div class="col-md-3 text-center" style="margin-bottom: 20px">
-              <img
-                src="images/faq4.jpg"
-                class="img-responsive"
-                style="height: 298; margin: auto"
-              />
-            </div>
-            <div class="col-md-3 text-center" style="margin-bottom: 20px">
-              <img
-                src="images/faq5.jpg"
-                class="img-responsive"
-                style="height: 298; margin: auto"
-              />
-            </div>
-            <div class="col-md-3 text-center" style="margin-bottom: 20px">
-              <img
-                src="images/faq6.jpg"
-                class="img-responsive"
-                style="height: 298; margin: auto"
-              />
-            </div>
-            <div class="col-md-3 text-center" style="margin-bottom: 20px">
-              <img
-                src="images/faq7.jpg"
-                class="img-responsive"
-                style="height: 298; margin: auto"
-              />
-            </div>
-            <div class="col-md-3 text-center" style="margin-bottom: 20px">
-              <img
-                src="images/faq8.jpg"
-                class="img-responsive"
-                style="height: 298; margin: auto"
-              />
+            <div class="col-md-6 text-center">
+              <h4
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="color: black; padding-top: 10px; font-weight: bold"
+              >
+                Date
+              </h4>
+              <h2
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="color: black; font-family: 'Sansita Swashed'"
+              >
+                September 28, 2024 | Saturday
+              </h2>
+
+              <h4
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="color: black; padding-top: 10px; font-weight: bold"
+              >
+                Time
+              </h4>
+              <h2
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="color: black; font-family: 'Zen Antique'"
+              >
+                04:00 PM
+              </h2>
+
+              <h4
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="color: black; padding-top: 10px; font-weight: bold"
+              >
+                Ceremony
+              </h4>
+              <h2
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="color: black; font-family: 'Sansita Swashed'"
+              >
+                Cebu Metropolitan Cathedral
+              </h2>
+
+              <h4
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="color: black; padding-top: 10px; font-weight: bold"
+              >
+                Reception
+              </h4>
+              <h2
+                class="wow fadeInUp"
+                data-wow-delay="0.7s"
+                style="color: black; font-family: 'Sansita Swashed'"
+              >
+                BAI Hotel
+              </h2>
             </div>
           </div>
-
-          <!-- <div class="row">
-            <div class="col-md-12">
-              <div class="col-md-4">
-                <div class="event wow flipInX" data-wow-delay="0.5s">
-                  <i class="fa fa-question-circle"></i>
-                  <h4 class="text-uppercase">
-                    DO YOU HAVE ANY GIFT PREFERENCES?
-                  </h4>
-                  <p style="text-align: justify">
-                    As love is what this day is all about, your presence is one
-                    we couldn't celebrate without. However, we'd be thankful to
-                    receive monetary gifts as we build our family.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div
-                  class="event alternative wow flipInX"
-                  data-wow-delay="0.5s"
-                >
-                  <i class="fa fa-question-circle"></i>
-                  <h4 class="text-uppercase">CAN I BRING A PLUS ONE?</h4>
-                  <p style="text-align: justify">
-                    Please refer to the number of seats allotted for you. As
-                    much as we want to celebrate with everyone, unfortunately,
-                    due to venue and budget restrictions, we can only
-                    accommodate a limit + number of guests.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="event wow flipInX" data-wow-delay="0.5s">
-                  <i class="fa fa-question-circle"></i>
-                  <h4 class="text-uppercase">CAN I BRING MY KID(S) WITH ME?</h4>
-                  <p style="text-align: justify">
-                    Children are adorable, but our event is for adults only.
-                    Only children in the entourage are included in both the
-                    ceremony and reception.
-                  </p>
-                  &nbsp;
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="col-md-4">
-                <div
-                  class="event alternative wow flipInX"
-                  data-wow-delay="0.5s"
-                >
-                  <i class="fa fa-question-circle"></i>
-                  <h4 class="text-uppercase">
-                    IS IT OKAY TO TAKE PICTURES WITH OUR PHONES AND CAMERAS
-                    DURING THE WEDDING?
-                  </h4>
-                  <p style="text-align: justify">
-                    Yes! However, please refrain from holding your phone out in
-                    the aisle or having your phone's sound on during the
-                    ceremony. Otherwise, we welcome you to share photos and
-                    videos with us!
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="event wow flipInX" data-wow-delay="0.5s">
-                  <i class="fa fa-question-circle"></i>
-                  <h4 class="text-uppercase">
-                    WHEN SHOULD WE ARRIVE AT THE VENUE?
-                  </h4>
-                  <p style="text-align: justify">
-                    The ceremony will start strictly at 4:00 PM. The entourage
-                    will march by 3:30 PM. Please be at the venue 10-15 minutes
-                    before 3:30 PM.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div
-                  class="event alternative wow flipInX"
-                  data-wow-delay="0.5s"
-                >
-                  <i class="fa fa-question-circle"></i>
-                  <h4 class="text-uppercase">
-                    CAN WE SIT ANYWHERE AT THE RECEPTION?
-                  </h4>
-                  <p style="text-align: justify">
-                    We have assigned seats for each of you. It took us a lot of
-                    effort and discussion to finalize the seating arrangement,
-                    which is meant for everyone's convenience and group
-                    familiarity, so there is no need to worry. Coordinators will
-                    gladly assist you in finding your designated seats.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="col-md-4">
-                <div class="event wow flipInX" data-wow-delay="0.5s">
-                  <i class="fa fa-question-circle"></i>
-                  <h4 class="text-uppercase">
-                    WHAT IF I DID NOT RSVP BUT WILL ATTEND THE WEDDING?
-                  </h4>
-                  <p style="text-align: justify">
-                    NO RSVP = NO SEAT. We will assign your seats, so we suggest
-                    you RSVP on or before September 07, 2024, or you may contact
-                    us ahead of time. If you said Yes + our RSVP but suddenly
-                    won't be able to attend, please let us know ASAP so we can
-                    accommodate any changes.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div
-                  class="event alternative wow flipInX"
-                  data-wow-delay="0.5s"
-                >
-                  <i class="fa fa-question-circle"></i>
-                  <h4 class="text-uppercase">WHEN CAN WE LEAVE?</h4>
-                  <p style="text-align: justify">
-                    The program is estimated to last until 9 PM. We hope you
-                    will stay with us until the end of the program. Should you
-                    wish to leave early, we'd love to thank you personally and
-                    bid goodbye before you, perhaps not until the same day the
-                    video is played.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
         <div class="separator"></div>
-      </section>
+      </div>
+    </section>
 
-      <!--Footer Section-->
-      <section class="footer">
-        <div class="container-fluid dark footer2">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <!--<img src="images/logo-grey.png" alt="logo"> -->
-                <p style="color: #fff">
-                  © #ANNotherchapterwithJILL 2024 - All Rights Reserved.
+    <!-- Dress Code -->
+    <section id="dresscode" class="white">
+      <div class="container-fluid white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading">
+                <h2
+                  class="wow fadeInUp underline padtop50"
+                  data-wow-delay="0.5s"
+                >
+                  Dress Code
+                </h2>
+                <p
+                  class="wow fadeInUp text-center"
+                  style="padding-top: 0px"
+                  data-wow-delay="0.7s"
+                >
+                  This is a formal event. Kindly dressed in your best. We
+                  encourage you to be as fashionable and stylish as you want,
+                  but kindly follow the colors indicated.
+                  <br /><br />
+                  Black suit/barong/ formal
+                  <a class="timeline-title">for the gentlemen</a>
+                  <br />
+                  Evening gown/long dress/ formal dress
+                  <a class="timeline-title">for the ladies</a>
                 </p>
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="wow flipInX" data-wow-delay="0.5s">
+                <a
+                  href="images/attire 1.jpg"
+                  class="popup-image"
+                  data-effect="mfp-zoom-in"
+                >
+                  <img
+                    src="images/attire 1.jpg"
+                    class="img-responsive"
+                    alt="portfolio"
+                /></a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="wow flipInX" data-wow-delay="0.5s">
+                <a
+                  href="images/attire 2.jpg"
+                  class="popup-image"
+                  data-effect="mfp-zoom-in"
+                >
+                  <img
+                    src="images/attire 2.jpg"
+                    class="img-responsive"
+                    alt="portfolio"
+                /></a>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="wow flipInX" data-wow-delay="0.5s">
+                <a
+                  href="images/attire 3.jpg"
+                  class="popup-image"
+                  data-effect="mfp-zoom-in"
+                >
+                  <img
+                    src="images/attire 3.jpg"
+                    class="img-responsive"
+                    alt="portfolio"
+                /></a>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-    </div>
+
+        <div class="separator"></div>
+      </div>
+    </section>
+
+    <!-- FAQ's -->
+    <section id="faqs" class="white">
+      <!--Special Events-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="heading">
+              <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">
+                Frequently Asked Questions
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-md-3 wow flipInX"
+            style="margin-bottom: 20px"
+            data-wow-delay="0.5s"
+          >
+            <a
+              href="images/faq1.jpg"
+              class="popup-image"
+              data-effect="mfp-zoom-in"
+            >
+              <img
+                src="images/faq1.jpg"
+                class="img-responsive"
+                style="height: 298; margin: auto"
+            /></a>
+          </div>
+          <div
+            class="col-md-3 wow flipInX"
+            style="margin-bottom: 20px"
+            data-wow-delay="0.5s"
+          >
+            <a
+              href="images/faq2.jpg"
+              class="popup-image"
+              data-effect="mfp-zoom-in"
+            >
+              <img
+                src="images/faq2.jpg"
+                class="img-responsive"
+                style="height: 298; margin: auto"
+            /></a>
+          </div>
+          <div
+            class="col-md-3 wow flipInX"
+            style="margin-bottom: 20px"
+            data-wow-delay="0.5s"
+          >
+            <a
+              href="images/faq3.jpg"
+              class="popup-image"
+              data-effect="mfp-zoom-in"
+            >
+              <img
+                src="images/faq3.jpg"
+                class="img-responsive"
+                style="height: 298; margin: auto"
+            /></a>
+          </div>
+          <div
+            class="col-md-3 wow flipInX"
+            style="margin-bottom: 20px"
+            data-wow-delay="0.5s"
+          >
+            <a
+              href="images/faq4.jpg"
+              class="popup-image"
+              data-effect="mfp-zoom-in"
+            >
+              <img
+                src="images/faq4.jpg"
+                class="img-responsive"
+                style="height: 298; margin: auto"
+            /></a>
+          </div>
+          <div
+            class="col-md-3 wow flipInX"
+            style="margin-bottom: 20px"
+            data-wow-delay="0.5s"
+          >
+            <a
+              href="images/faq5.jpg"
+              class="popup-image"
+              data-effect="mfp-zoom-in"
+            >
+              <img
+                src="images/faq5.jpg"
+                class="img-responsive"
+                style="height: 298; margin: auto"
+            /></a>
+          </div>
+          <div
+            class="col-md-3 wow flipInX"
+            style="margin-bottom: 20px"
+            data-wow-delay="0.5s"
+          >
+            <a
+              href="images/faq6.jpg"
+              class="popup-image"
+              data-effect="mfp-zoom-in"
+            >
+              <img
+                src="images/faq6.jpg"
+                class="img-responsive"
+                style="height: 298; margin: auto"
+            /></a>
+          </div>
+          <div
+            class="col-md-3 wow flipInX"
+            style="margin-bottom: 20px"
+            data-wow-delay="0.5s"
+          >
+            <a
+              href="images/faq7.jpg"
+              class="popup-image"
+              data-effect="mfp-zoom-in"
+            >
+              <img
+                src="images/faq7.jpg"
+                class="img-responsive"
+                style="height: 298; margin: auto"
+            /></a>
+          </div>
+          <div
+            class="col-md-3 wow flipInX"
+            style="margin-bottom: 20px"
+            data-wow-delay="0.5s"
+          >
+            <a
+              href="images/faq8.jpg"
+              class="popup-image"
+              data-effect="mfp-zoom-in"
+            >
+              <img
+                src="images/faq8.jpg"
+                class="img-responsive"
+                style="height: 298; margin: auto"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="separator"></div>
+    </section>
+
+    <!--Footer Section-->
+    <section class="footer">
+      <div class="container-fluid dark footer2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <!--<img src="images/logo-grey.png" alt="logo"> -->
+              <p style="color: #fff">
+                © #ANNotherchapterwithJILL 2024 - All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- </div> -->
     <!-- Al JS Plugins -->
     <script src="js/modernizr.custom.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -1540,45 +1534,44 @@
     <script src="js/countup.js"></script>
     <script src="js/modernizr.hover.js"></script>
     <script src="js/confetti.min.js"></script>
-
     <script>
-      function showContent() {
-        $("#pContent").removeAttr("style");
-        setTimeout(function () {
-          confetti.start();
-        }, 1000);
-        var $anchor = $(this);
-        $("html, body")
-          .stop()
-          .animate(
-            {
-              scrollTop: $($anchor.attr("pContent")).offset().top
-            },
-            1500,
-            "easeInOutExpo"
-          );
-        event.preventDefault();
+      // function showContent() {
+      //   $("#pContent").removeAttr("style");
+      //   setTimeout(function () {
+      //     confetti.start();
+      //   }, 1000);
+      //   var $anchor = $(this);
+      //   $("html, body")
+      //     .stop()
+      //     .animate(
+      //       {
+      //         scrollTop: $($anchor.attr("pContent")).offset().top
+      //       },
+      //       1500,
+      //       "easeInOutExpo"
+      //     );
+      //   event.preventDefault();
 
-        setTimeout(function () {
-          confetti.stop();
-        }, 5000);
-      }
+      //   setTimeout(function () {
+      //     confetti.stop();
+      //   }, 5000);
+      // }
 
-      function hideContent() {
-        var $anchor = $(this);
-        $("html, body")
-          .stop()
-          .animate(
-            {
-              scrollTop: $($anchor.attr("myCarousel")).offset().top
-            },
-            1500,
-            "easeInOutExpo"
-          );
-        event.preventDefault();
+      // function hideContent() {
+      //   var $anchor = $(this);
+      //   $("html, body")
+      //     .stop()
+      //     .animate(
+      //       {
+      //         scrollTop: $($anchor.attr("myCarousel")).offset().top
+      //       },
+      //       1500,
+      //       "easeInOutExpo"
+      //     );
+      //   event.preventDefault();
 
-        $("#pContent").attr("style", "display:none;");
-      }
+      //   $("#pContent").attr("style", "display:none;");
+      // }
     </script>
   </body>
 </html>

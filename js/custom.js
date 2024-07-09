@@ -156,7 +156,9 @@ $(document).ready(function () {
     items: 4,
     pagination: false,
     autoPlay: true,
-    lazyLoad: true
+    lazyLoad: true,
+    center: true,
+    loop: true
   });
 
   $("#owl-common").owlCarousel({
