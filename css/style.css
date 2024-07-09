@@ -1235,8 +1235,8 @@ a:focus {
 /* 13. Footer Section */
 
 .footer {
-  padding-top: 50px;
-  background: #fff;
+  padding-top: 0px;
+  background: #671f33;
 }
 
 /* 13.1 Twitter */
@@ -1292,7 +1292,7 @@ a:focus {
 }
 
 .footer2 p {
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .footer2 img {
@@ -1304,7 +1304,7 @@ a:focus {
 }
 
 .footer2 > div > .social-icons {
-  height: 30px;
+  height: 130px;
 }
 
 /* 14. Misc */
