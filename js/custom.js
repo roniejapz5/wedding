@@ -7,7 +7,7 @@ $(document).ready(function () {
       .stop()
       .animate(
         {
-          scrollTop: $($anchor.attr("href")).offset().top,
+          scrollTop: $($anchor.attr("href")).offset().top
         },
         1500,
         "easeInOutExpo"
@@ -98,16 +98,16 @@ $(document).ready(function () {
 
   $("#myCarousel").carousel({
     interval: 10000, //changes the speed
-    pause: "false",
+    pause: "false"
   });
   //Bootstrap Carousel Progressbar
 
   $("#progressbar").progressbar({
-    value: 1,
+    value: 1
   });
   $("#progressbar > .ui-progressbar-value").animate(
     {
-      width: "100%",
+      width: "100%"
     },
     10000
   );
@@ -116,13 +116,13 @@ $(document).ready(function () {
     $("#progressbar > .ui-progressbar-value").finish();
     $("#progressbar > .ui-progressbar-value").animate(
       {
-        width: "0%",
+        width: "0%"
       },
       0
     );
     $("#progressbar > .ui-progressbar-value").animate(
       {
-        width: "100%",
+        width: "100%"
       },
       10000
     );
@@ -144,12 +144,12 @@ $(document).ready(function () {
 
   $("#owl-man-family").owlCarousel({
     items: 2,
-    lazyLoad: true,
+    lazyLoad: true
   });
 
   $("#owl-woman-family").owlCarousel({
     items: 2,
-    lazyLoad: true,
+    lazyLoad: true
   });
 
   $("#owl-moments").owlCarousel({
@@ -158,18 +158,18 @@ $(document).ready(function () {
     autoPlay: true,
     lazyLoad: true,
     center: true,
-    loop: true,
+    loop: true
   });
 
   $("#owl-common").owlCarousel({
     items: 3,
-    lazyLoad: true,
+    lazyLoad: true
   });
 
   $("#owl-blog-post-gallery").owlCarousel({
     singleItem: true,
     autoPlay: true,
-    lazyLoad: true,
+    lazyLoad: true
   });
 
   /*------------------------------ Sticky Navigation -----------------*/
@@ -179,7 +179,7 @@ $(document).ready(function () {
   /*------------------------------ Magnific POP -----------------*/
 
   $(".popup-vimeo").magnificPopup({
-    type: "iframe",
+    type: "iframe"
   });
   $(".popup-image").magnificPopup({
     type: "image",
@@ -192,10 +192,10 @@ $(document).ready(function () {
           "mfp-figure mfp-with-anim"
         );
         this.st.mainClass = this.st.el.attr("data-effect");
-      },
+      }
     },
     closeOnContentClick: true,
-    midClick: true, // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+    midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
   /*------------------------------ Waypoint Counting -----------------*/
